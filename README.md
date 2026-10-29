@@ -120,8 +120,6 @@ Install the main packages with:
 pip install ultralytics opencv-python numpy pandas matplotlib
 ```
 
-If your notebook uses additional libraries, install those as well.
-
 ## Running the Project
 
 The project was developed in Google Colab. To reproduce the workflow:
@@ -160,27 +158,6 @@ results = model.predict(
 ```
 
 This snippet runs object detection and saves prediction visualizations using Ultralytics. The project's severity classification, Road Health Score, maintenance-priority mapping, and CSV reporting require the corresponding assessment code from the project implementation.
-
-## Suggested Repository Structure
-
-```text
-RoadVision-AI/
-├── README.md
-├── notebooks/
-│   └── roadvision_ai.ipynb
-├── src/
-│   ├── detection.py
-│   ├── severity_assessment.py
-│   ├── road_health.py
-│   └── report_generation.py
-├── results/
-│   ├── annotated_images/
-│   └── reports/
-├── requirements.txt
-└── .gitignore
-```
-
-This is a suggested organization. Keep only the files and folders that actually exist in your repository, and adjust filenames to match your implementation.
 
 ## Limitations
 
