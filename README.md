@@ -33,9 +33,6 @@ The system combines a trained **YOLO11n** object detection model with rule-based
 
 The project uses the **BharatPothole** dataset.
 
-- Dataset on Kaggle: https://www.kaggle.com/datasets/surbhisaswatimohanty/bharatpothole
-- Related GitHub repository: https://github.com/smlab-niser/iWatchRoad
-
 Reported dataset organization:
 
 | Split | Number of images |
@@ -206,8 +203,6 @@ This is a suggested organization. Keep only the files and folders that actually 
 ## References
 
 - **BharatPothole dataset:** https://www.kaggle.com/datasets/surbhisaswatimohanty/bharatpothole
-- **Related GitHub repository:** https://github.com/smlab-niser/iWatchRoad
-- **Ultralytics documentation:** https://docs.ultralytics.com/
 
 ## Disclaimer
 
